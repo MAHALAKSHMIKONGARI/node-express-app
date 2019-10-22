@@ -50,7 +50,7 @@ app.get('/json', (req, res) => {
 
 // :name indicates a parameter at this location in the URI
 app.get('/greeting/:id', (req, res) => {
-  res.send(`Hello! The id provided was ${req.params.id}.`)
+  res.send(`Hello, ${req.params.id}! `)
 })
 
 // combine your skills and get creative
